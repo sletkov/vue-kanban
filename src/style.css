@@ -1,0 +1,112 @@
+.theme-light {
+    --color-primary: #ccecff;
+    --color-secondary: #36b5ff;
+    --color-accent: #00a2ff;
+    --font-color: #fff;
+    --one: #7ce1f7;
+    --two: #7ce1f7;
+    --four: #7ce1f7;
+}
+
+.theme-dark {
+    --color-primary: #011a29;
+    --color-secondary: #011a29;
+    --color-accent: #011a29;
+    --font-color: #ffffff;
+    --one: #00578a;
+    --two: #00578a;
+    --four: #00578a;
+}
+body{
+    background-color: var(--color-primary) !important;
+    overflow-x: visible !important;
+}
+.header{
+    background-color: var(--color-accent);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    width: 100%;
+
+  }
+  .header__logo{
+    height: 80%;
+    width: auto;
+  }
+h1{
+    color: var(--font-color);
+}
+.button{
+    background-color: var(--color-accent) !important;
+    border: none !important;
+    outline: none !important;
+    justify-self: flex-end!important;
+    color: var(--font-color) !important;
+    margin-left: auto
+}
+
+.backlog{
+    background-color: var(--one) !important;
+    border: none !important;
+}
+.inprog{
+    background-color: var(--two) !important;
+    border: none !important;
+}
+.done{
+    background-color: var(--four) !important;
+    border: none !important;
+}
+.left{
+    justify-self: flex-start !important;
+}
+.right{
+    justify-self: flex-end !important;
+}
+footer{
+    background-color: var(--color-accent);
+    color: var(--font-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    font-size: 1.2em;
+	width: 100%;
+}
+
+.container {
+    min-height: 100%;
+}
+#app{
+
+    margin-bottom: 100px !important;
+}
+.row-sdf {
+    display: flex;
+    flex-direction:column;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    background-color: var(--font-secondary)!important;
+    color: var(--font-color)!important;
+}
+
+.create--btn {
+    margin-top: 20px;
+    background-color: var(--color-accent) !important; ;
+}
+
+.section__heading {
+    text-align: center;
+    color: #00a2ff;
+}
+
+.card__buttons{
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-around;
+}
